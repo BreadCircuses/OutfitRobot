@@ -1,17 +1,19 @@
 # Superficial Robot
 
 
-Kate is an average person who has accumulated a lot of stuff over the years. Keeping the stuff organised and buying new stuff because the old stuff is never organized and used properly results in wasted resources: time, energy, money, dead neurons.
+Kate is an average person who has accumulated a lot of stuff over the years. Keeping the stuff organised and buying new stuff because the old stuff is never organized results in wasted resources: time, energy, money, dead neurons.
 
 A large portion of stuff in Kate’s case is her clothing.
 
-She has 25 coats, 20 bags, 50 bottoms (skirts, pants or jeans), 60 pairs of shoes, and 130 tops (shirts, sweaters, and t-shirts).
+She has 25 jackets or coats, 20 bags, 50 bottoms (skirts, pants or jeans), 60 pairs of shoes, and 130 tops (shirts, sweaters, and t-shirts).
 
 This is a combination formula:
 
 ![GitHub Logo](https://cloud.githubusercontent.com/assets/16660416/24681870/e5c48a28-194b-11e7-82bf-18db090d485c.GIF)
 
-The amount of unique combinations Kate can make with her items is
+Kate just wants to get dressed and start her day.
+
+But the amount of unique combinations she can make with her items is
 
 n!/r!(n-r)! = 295!/5!(295-5)! = 295!/5!*290! = 1.302405364 E+602/120*6.031611618 E+589 =
 
