@@ -1,6 +1,5 @@
 # Superficial Robot
 
-###### Helps make fast and effective choice from 18 billion options
 
 Kate is an average person who has accumulated a lot of stuff over the years. Keeping the stuff organised and buying new stuff because the old stuff is never organized and used properly results in wasted resources: time, energy, money, dead neurons.
 
@@ -23,3 +22,5 @@ n!/r!(n-r)! = 295!/5!(295-5)! = 295!/5!*290! = 1.302405364 E+602/120*6.031611618
 ## 17 994 159 309
 
 Kate can no longer unsee this number. She needs help.
+
+*unfinished. to be continued*
