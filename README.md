@@ -25,4 +25,6 @@ n!/r!(n-r)! = 295!/5!(295-5)! = 295!/5!*290! = 1.302405364 E+602/120*6.031611618
 
 Kate can no longer unsee this number. She needs help.
 
+Her better self comes to the rescue.
+
 *unfinished. to be continued*
