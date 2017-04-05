@@ -1,7 +1,7 @@
 # Superficial Robot
 
 
-Kate is an average person who has accumulated a lot of stuff over the years. Keeping the stuff organised and buying new stuff because the old stuff is never organized results in wasted resources: time, energy, money, dead neurons.
+Kate is an average person who has accumulated a lot of stuff over the years. 
 
 A large portion of stuff in Kate’s case is her clothing.
 
