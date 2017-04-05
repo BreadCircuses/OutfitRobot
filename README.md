@@ -3,7 +3,7 @@
 
 Kate is an average person who has accumulated a lot of stuff over the years. 
 
-A large portion of stuff in Kate’s case is her clothing.
+A large portion Kate’s stuff is her clothing.
 
 She has 25 jackets or coats, 20 bags, 50 bottoms (skirts, pants or jeans), 60 pairs of shoes, and 130 tops (shirts, sweaters, and t-shirts).
 
