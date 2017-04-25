@@ -44,7 +44,7 @@ The largest table, articles_list, contains 16 fields, including:
 - NumYears (the amount of years Kate has the item)
 - Style (example: "BFM" stands for "Bohemian," "Futuristic," and "Modern")
 
-Kate does an inner join of articles_list and article_category and saves the result as an csv file.
+Kate creates an inner join of articles_list and article_category and saves the result as an csv file.
 
 She parses the file in Python and makes 6 lists of lists.
 
