@@ -23,8 +23,29 @@ n!/r!(n-r)! = 295!/5!(295-5)! = 295!/5!*290! = 1.302405364 E+602/120*6.031611618
 
 ## 17 994 159 309
 
-Kate can no longer unsee this number. She needs help.
+Kate wants to unsee this number. 
+She needs help.
 
 Her better self comes to the rescue.
+
+She studies SQL and creates a schema with 3 tables in it.
+
+The largest table, articles_list, contains 16 fields, including:
+- Article_ID (primary key)
+- Subcategory_ID
+- Brand_Name
+- Weather
+- Occasion
+- Color
+- Color_Family
+- IsCurrent (boolean)
+- IsOversized (boolean)
+- NumTimes (the amount of times a particular item was chosen)
+- NumYears (the amount of years Kate has the item)
+- Style (example: "BFM" stands for "Bohemian," "Futuristic," and "Modern")
+
+Kate does an inner join of articles_list and article_category and saves the result as an csv file.
+
+She parses the file in Python and makes 6 lists of lists.
 
 *unfinished. to be continued*
