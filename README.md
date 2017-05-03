@@ -23,7 +23,7 @@ n!/r!(n-r)! = 295!/5!(295-5)! = 295!/5!*290! = 1.302405364 E+602/120*6.031611618
 
 ## 17 994 159 309
 
-Kate wants to unsee this number. 
+Kate would rather unsee this number. 
 She needs help.
 
 Her better self comes to the rescue.
@@ -48,4 +48,4 @@ Kate creates an inner join of articles_list and article_category and saves the r
 
 She parses the file in Python and makes 6 lists of lists.
 
-*unfinished. to be continued*
+*the code works. the readme is unfinished*
