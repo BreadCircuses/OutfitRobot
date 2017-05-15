@@ -35,7 +35,7 @@ The largest table, articles_list, contains 16 fields, including:
 - Subcategory_ID
 - Brand_Name
 - Weather
-- Occasion
+- Occasion_Name (example: "BCD", "BD", "C," where "B" stands for "Business," "C" for Casual," and "D" for Dressy")
 - Color
 - Color_Family
 - IsCurrent (boolean)
@@ -43,6 +43,27 @@ The largest table, articles_list, contains 16 fields, including:
 - NumTimes (the amount of times a particular item was chosen)
 - NumYears (the amount of years Kate has the item)
 - Style (example: "BFM" stands for "Bohemian," "Futuristic," and "Modern")
+
+Kate quiries her database and begins to understand what causes her problems.
+
+ ```
+SELECT outfit_robot.articles_list.Weather,
+COUNT(Article_ID) AS Num_Warm
+FROM outfit_robot.articles_list
+WHERE Weather = "WRM";
+ 
+ ```
+Result = 62, or 26% (there are 238 records in the articles_list database). 26% of Kate's clothing is suitable only for very warm  weather, while the proportion of really warm days in SF is about 5%.
+
+```
+
+SELECT outfit_robot.articles_list.Occasion_Name,
+COUNT(Article_ID) AS Num_Formal
+FROM outfit_robot.articles_list
+WHERE Occasion_Name like "%D%";
+
+```
+The result of 191 means that 80% (sic!) of her items are too formal (and she, therefore, hasn't touched them for years).
 
 Kate creates an inner join of articles_list and article_category and saves the result as an csv file.
 
