@@ -65,10 +65,36 @@ WHERE Occasion_Name like "%D%";
 ```
 The result of 191 means that 80% of Kate's items are somewhat formal (and she tries to avoid them).
 
-Kate's still determined to spend no more than 2 minutes on getting dressed every day. She begins creating the Superficial Robot algorithm.
+A couple more quiries confirms Kate's hypothesis that she wears only a small fraction of the items she owns.
 
-She makes an inner join of articles_list and article_category and saves the result as an csv file.
+```
+SELECT outfit_robot.articles_list.num_times,
+COUNT(Article_ID) AS Max_Num
+FROM outfit_robot.articles_list
+WHERE num_times > 20;
+
+```
+Result = 14. The proportion of items Kate wore more than 20 times is only 6%.
+
+```
+
+SELECT outfit_robot.articles_list.num_times,
+COUNT(Article_ID) AS Min_Num
+FROM outfit_robot.articles_list
+WHERE num_times <= 3;
+
+```
+Result = 116. The proportion of items Kate wore 3 times or less (including never) is 49%.
+
+Kate decides to do the following:
+
+1. Stop buying new clothing
+2. Stop thinking about her existing clothing
+3. Spend no more than 2 minutes a day to get dressed
+4. Write an algorithm that makes it all possible
+
+She creates an inner join of articles_list and article_category and saves the result as an csv file.
 
 Parses the file in Python and makes 6 lists of lists.
 
-*the code works. the readme is unfinished*
+*the code works and accomplishes the goal. the readme describing the algorithm is to be continued*
