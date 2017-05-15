@@ -44,7 +44,7 @@ The largest table, articles_list, contains 16 fields, including:
 - NumYears (the amount of years Kate has the item)
 - Style (example: "BFM" stands for "Bohemian," "Futuristic," and "Modern")
 
-Kate quiries her database and begins to understand what causes her problems.
+Kate quiries her database and begins to realize what causes her problems.
 
  ```
 SELECT outfit_robot.articles_list.Weather,
@@ -63,10 +63,12 @@ FROM outfit_robot.articles_list
 WHERE Occasion_Name like "%D%";
 
 ```
-The result of 191 means that 80% (sic!) of her items are too formal (and she, therefore, hasn't touched them for years).
+The result of 191 means that 80% of her items are somewhat formal (and she often tries to avoid them).
 
-Kate creates an inner join of articles_list and article_category and saves the result as an csv file.
+Kate's still determined to spend no more than 2 minutes on getting dressed every day. She begins creating the Superficial Robot algorithm.
 
-She parses the file in Python and makes 6 lists of lists.
+She makes an inner join of articles_list and article_category and saves the result as an csv file.
+
+Parses the file in Python and makes 6 lists of lists.
 
 *the code works. the readme is unfinished*
