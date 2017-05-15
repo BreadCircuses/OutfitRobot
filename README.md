@@ -53,7 +53,7 @@ FROM outfit_robot.articles_list
 WHERE Weather = "WRM";
  
  ```
-Result = 62, or 26% (there are 238 records in the articles_list database). 26% of Kate's clothing is suitable only for very warm  weather, while the proportion of really warm days in SF is about 5%.
+Result = 62, or 26% (there are 238 records in the articles_list database). 26% of Kate's clothing is only suitable for very warm  weather, while the proportion of really warm days in SF is about 5%.
 
 ```
 
@@ -63,7 +63,7 @@ FROM outfit_robot.articles_list
 WHERE Occasion_Name like "%D%";
 
 ```
-The result of 191 means that 80% of her items are somewhat formal (and she often tries to avoid them).
+The result of 191 means that 80% of Kate's items are somewhat formal (and she tries to avoid them).
 
 Kate's still determined to spend no more than 2 minutes on getting dressed every day. She begins creating the Superficial Robot algorithm.
 
