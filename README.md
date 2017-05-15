@@ -53,7 +53,9 @@ FROM outfit_robot.articles_list
 WHERE Weather = "WRM";
  
  ```
-Result = 62, or 26% (there are 238 records in the articles_list database). 26% of Kate's clothing is only suitable for very warm  weather, while the proportion of really warm days in SF is about 5%.
+Result = 62, or 26% (there are 238 records in the articles_list database). 
+
+26% of Kate's clothing is only suitable for very warm  weather, while the proportion of really warm days in SF (according to Kate's definition of "warm" and given that she lives in the Sunset) is about 5%.
 
 ```
 
