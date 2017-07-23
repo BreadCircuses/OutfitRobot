@@ -33,7 +33,7 @@ She needs help.
 
 Her better self comes to the rescue.
 
-She studies SQL and creates a schema with 3 tables in it.
+She learns SQL and creates a schema with 3 tables in it.
 
 The largest table, articles_list, contains 16 fields, including:
 - Article_ID (primary key)
@@ -45,11 +45,11 @@ The largest table, articles_list, contains 16 fields, including:
 - Color_Family
 - IsCurrent (boolean)
 - IsOversized (boolean)
-- NumTimes (the amount of times a particular item was chosen)
-- NumYears (the amount of years Kate has the item)
+- NumTimes (the number of times a particular item was chosen)
+- NumYears (the number of years Kate has owned the item)
 - Style (example: "BFM" stands for "Bohemian," "Futuristic," and "Modern")
 
-Kate quiries her database and begins to realize what causes her problems.
+Kate quiries her database and begins to understand what causes her problems.
 
  ```
 SELECT outfit_robot.articles_list.Weather,
