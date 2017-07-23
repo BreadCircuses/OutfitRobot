@@ -1,5 +1,9 @@
 # Superficial Robot
 
+#### Superficial Robot reduces the time it takes to make an everyday decision from 15 minutes to 3 seconds.
+#### It solves the "I have nothing to wear" problem once and for all.
+#### Written in Python.
+
 
 Kate is an average person who has accumulated a lot of stuff over the years. 
 
