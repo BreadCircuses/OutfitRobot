@@ -5,6 +5,7 @@
 #### Written in Python.
 
 
+
 Kate is an average person who has accumulated a lot of stuff over the years. 
 
 A large portion Kate’s stuff is her clothing.
