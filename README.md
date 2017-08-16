@@ -6,11 +6,9 @@
 
 
 
-Kate is an average person who has accumulated a lot of stuff over the years. 
+Kate’s problem is a common one: she has more than she needs and doesn’t know what to do with it. She has both 5 m³ of clothing and a “nothing to wear” dilemma.
 
-A large portion Kate’s stuff is her clothing.
-
-She has 25 jackets or coats, 20 bags, 50 bottoms (skirts, pants or jeans), 60 pairs of shoes, and 130 tops (shirts, sweaters, and t-shirts).
+Over time Kate has accumulated 25 jackets and coats, 20 bags, 50 bottoms (skirts, pants, jeans), 70 pairs of shoes, and 130 tops (shirts, sweaters, t-shirts).
 
 This is a combination formula:
 
